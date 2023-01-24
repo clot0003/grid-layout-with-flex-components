@@ -25,3 +25,38 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .emojis {
+    display: grid;
+    width: 820px;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: auto auto;
+  }
+
+  .emoji .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.emoji p {
+    display: flex;
+    padding: 5px;
+}
+
+.emoji .icon {
+    display: flex;
+    order: -1;
+}
+
+.emoji a {
+    display: flex;
+    align-items: baseline;
+}
+ 
+
+
+
+
+
+
